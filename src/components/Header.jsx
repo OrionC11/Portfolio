@@ -1,4 +1,5 @@
 import Nav from "./Nav";
+import "../index.css";
 
 const Header = () => {
   return (
