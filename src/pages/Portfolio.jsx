@@ -47,7 +47,7 @@ const Portfolio = () => {
       image: "/PasswordGenerator.png",
       github: "https://github.com/OrionC11/PasswordGenerator",
       link: "https://orionc11.github.io/PasswordGenerator/",
-    }
+    },
   ];
   return (
     <div>
