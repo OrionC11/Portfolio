@@ -58,6 +58,7 @@ body {
   min-width: 320px;
   justify-content: center;
   text-align: center;
+  height: 95vh;
 }
 footer{
   display: inline-block;
