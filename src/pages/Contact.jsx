@@ -37,14 +37,12 @@ const Contact = () => {
 
     setFormErrors(errors);
 
-    // If no errors, submit the form (send data to server or API)
     if (Object.keys(errors).length === 0) {
       console.log("Form data:", formData);
-      // Here you would typically send the form data to a server or API endpoint.
     }
   };
   return (
-    <div>
+    <div className="contactSection">
       <h2>Contact Me</h2>
       <form onSubmit={handleSubmit} className="contactForm">
         <div>
@@ -79,7 +77,7 @@ const Contact = () => {
           ></textarea>
           {formErrors.message && <p>{formErrors.message}</p>}
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit">Submit{"  "}</button>
       </form>
       <p className="contactInfo">
         Email:{"  "}
