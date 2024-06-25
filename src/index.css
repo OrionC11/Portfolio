@@ -184,9 +184,19 @@ button{
 @media (prefers-color-scheme: light) {
   :root {
     background-color: #ffffff;
+    color: black;
   }
   a:hover {
     color: #747bff;
+  }
+  .aboutHeading{
+    color: rgba(255, 255, 255, 0.87);
+  }
+  .contactHeading{
+    color: rgba(255, 255, 255, 0.87);
+  }
+  p {
+    color: rgba(255, 255, 255, 0.87);
   }
 }
 
