@@ -17,6 +17,13 @@ const Footer = () => {
         >
           Github
         </a>
+        <a
+          href="https://www.twitch.tv/the_clouded_gamer"
+          target="_blank"
+          className="footerLink"
+        >
+          Twitch{" "}
+        </a>
       </footer>
     </div>
   );
