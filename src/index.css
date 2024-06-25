@@ -120,7 +120,7 @@ button{
   align-items: center;
 }
 .projectMain{
-  min-height: 200vh;
+  min-height: 275vh;
 }
 .projectSection{
   height: 100vh;
@@ -144,7 +144,6 @@ button{
   max-width: 700px;
  
 }
-
 .projectContainer{
   display: flex;
   flex-direction: column;
