@@ -20,13 +20,6 @@ a:hover {
   color: #535bf2;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
@@ -45,6 +38,9 @@ p{
   line-height: 2.5;
 }
 
+body{
+  min-height: 100vh;
+}
 nav{
   display: flex;
   justify-content: space-between;
@@ -56,16 +52,14 @@ main {
   margin: 0;
   display: flex;
   min-width: 320px;
-  min-height: 100vh;
+  min-height: 95vh;
   justify-content: center;
   text-align: center;
-  height: 95vh;
 }
 footer{
   display: flex;
   justify-content: space-evenly;
   width: 50vw;
-  margin-top: auto;
 }
 
 form {
@@ -124,6 +118,12 @@ button{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.projectMain{
+  min-height: 200vh;
+}
+.projectSection{
+  height: 100vh;
 }
 
 
@@ -185,5 +185,66 @@ button{
   }
   a:hover {
     color: #747bff;
+  }
+}
+
+@media (max-width: 1024px){
+  main{
+    min-width: 100vw;
+    justify-content: center;
+  }
+  h1{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 25px;
+    margin: 5px;
+  }
+  footer{
+    width: 100%;
+    align-items: center;
+  }
+  a{
+    font-size: 12px;
+    padding: 6px;
+    border: none;
+  }
+  form{
+    width: 80%;
+  }
+  .footerText{
+    font-size: 15px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+  }
+  .portrait{
+    max-width: 300px;
+    max-height: auto;
+  }
+  .aboutSection{
+    width: 95vw;
+    height: auto;
+
+  }
+  .projectCard{
+    width: 300px;
+    height: 300px;
+  
+  }
+
+  .aboutSection {
+    width: 95vw;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+}
+
+
+@media (max-width: 578px){
+  .projectMain{
+    margin: 10px;
+    height: 250vh;
   }
 }
