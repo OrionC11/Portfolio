@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div className="aboutSection">
       <h2>About Me</h2>
-      <img src="/Portrait.jpg" className="portrait" />
+      <img src="/portrait.jpg" className="portrait" />
       <p className="aboutText">
         I am a web developer with a passion for creating and designing websites.
         I have experience with HTML, CSS, JavaScript, and React. I just
