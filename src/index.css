@@ -183,20 +183,39 @@ button{
 
 @media (prefers-color-scheme: light) {
   :root {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.60);
     color: black;
+  }
+  a{
+    color: rgb(129, 129, 237);
   }
   a:hover {
     color: #747bff;
   }
-  .aboutHeading{
-    color: rgba(255, 255, 255, 0.87);
-  }
-  .contactHeading{
-    color: rgba(255, 255, 255, 0.87);
-  }
   p {
     color: rgba(255, 255, 255, 0.87);
+  }
+  h1{
+    color: #3c88ca;
+  }
+  h2{
+    color: white;
+  }
+  .aboutSection{
+    background-color: #242424;
+  }
+  .contactSection{
+    background-color: #242424;
+  }
+  .projectMain{
+    background-color: #242424;
+    width: 90vw;
+  }
+  .projectTitle{
+    color: #242424
+  }
+  .projectDescription{
+    color: rgba(63, 63, 63, 0.842)
   }
 }
 
