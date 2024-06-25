@@ -45,8 +45,8 @@ const Portfolio = () => {
       description:
         "An application that generates a random password based on user-selected criteria",
       image: "/PasswordGenerator.png",
-      github: "https://github.com/OrionC11/PasswordGenerator",
-      link: "https://orionc11.github.io/PasswordGenerator/",
+      github: "https://github.com/OrionC11/PasswordGen",
+      link: "https://orionc11.github.io/PasswordGen/",
     },
   ];
   return (
