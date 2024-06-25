@@ -25,7 +25,11 @@ h1 {
   line-height: 1.1;
   padding: 10px;
   padding-left:20px;
-  color:aqua
+  color:aqua;
+  text-shadow: -2px -2px 0 #000,  
+                2px -2px 0 #000,
+               -2px  2px 0 #000,
+                2px  2px 0 #000; 
 }
 
 h2{
