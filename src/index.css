@@ -124,10 +124,11 @@ button{
   align-items: center;
 }
 .projectMain{
-  min-height: 275vh;
+  flex: 1;
+  padding: 20px;
 }
 .projectSection{
-  height: 100vh;
+  min-height: 100vh;
 }
 
 
@@ -148,29 +149,35 @@ button{
   max-width: 700px;
  
 }
-.projectContainer{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
 
+.projectContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 50px;
+}
 .projectCard{
-  margin: 10px;
-  color: black;
-  width: 600px;
-  height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  width: 500px; 
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.projectCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;''
+}
+.projectText{
+  width: 100%; 
+  text-align: center; 
+  margin-top: 10px;
+  background-color: rgba(230, 230, 230, 0.60);
+  border-radius: 20px;
 }
 
-.projectText{
-  border: 2px solid black;
-  align-items: center;
-  max-width: 300px;
-  background-color: rgba(230, 230, 230, 0.60)
-}
 
 .projectLink{
   border: none;
@@ -179,6 +186,10 @@ button{
                -1px  1px 0 #000,
                 1px  1px 0 #000; 
 
+}
+.projectLink i {
+  padding: 10px;
+  font-size: 1.5em; /* Adjust the size as needed */
 }
 
 @media (prefers-color-scheme: light) {

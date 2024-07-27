@@ -1,6 +1,7 @@
 const Project = ({ name, description, image, github, link }) => {
   return (
-    <div className="projectCard" style={{ backgroundImage: `url(${image})` }}>
+    <div className="projectCard">
+      <img src={image} alt={description}></img>
       <div className="projectText">
         <h2 className="projectTitle">{name}</h2>
         <p className="projectDescription">{description}</p>
@@ -12,10 +13,10 @@ const Project = ({ name, description, image, github, link }) => {
           rel="noreferrer"
           className="projectLink"
         >
-          Github{" "}
+          <i className="fab fa-github"></i>
         </a>
         <a href={link} target="_blank" rel="noreferrer" className="projectLink">
-          Deployed App{" "}
+          <i className="fas fa-globe"></i>
         </a>
       </div>
     </div>

@@ -19,7 +19,7 @@ const Portfolio = () => {
     },
     {
       name: "Just Another Text Editor",
-      description: "just another text editor for writing javascript",
+      description: "Just another text editor for writing javascript",
       image: "/JATE.png",
       github: "https://github.com/OrionC11/JustAnotherTextEditor",
       link: "https://justanothertexteditor-a8fi.onrender.com",
