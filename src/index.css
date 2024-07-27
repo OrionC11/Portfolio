@@ -246,7 +246,7 @@ button{
   main{
     display: flex;
     flex-direction: column;
-    min-height: 95vh; 
+    min-height: 100vh; 
     justify-content: space-between;
     align-items: center;
   }
@@ -281,9 +281,7 @@ button{
 
   .aboutSection {
     width: 95vw;
-    height: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    height: 100vh;
   }
   .projectCard{
     width: 35vw;
@@ -296,21 +294,58 @@ button{
 
   }
 }
-@media (max-width:768px){
+
+@media (max-width: 768px){
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  main{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    justify-content: space-between;
+    align-items: center;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 30px;
+  }
+  footer{
+    width: 100%;
+    align-items: center;
+  }
+  a{
+    font-size: 10px;
+    padding: 5px;
+    border: none;
+  }
+  .footerText{
+    font-size: 12px;
+    padding-right: 0px;
+    padding-bottom: 2px;
+  }
+  .aboutSection {
+    width: 100vw;
+    height: 100vh;
+    padding-bottom: 30px;
+    margin-left: 13px;
+  }
+  .portrait{
+    max-width: 60vw;
+    max-height: auto;
+  }
   .projectContainer {
     display: flex;
     flex-direction: column;
   }
   .projectCard{
-    width: 90vw;
-    height: auto;
-  
-  }
-}
-
-@media (max-width: 578px){
-  .projectMain{
-    margin: 10px;
-    height: 250vh;
-  }
+      width: 90vw;
+      height: auto;
+      margin: 2px;
+    }
 }
