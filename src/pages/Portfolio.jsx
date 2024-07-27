@@ -15,7 +15,7 @@ const Portfolio = () => {
       description: "An application to keep track of your meow moments",
       image: "/Meowmories.png",
       github: "https://github.com/OrionC11/Meowmories",
-      link: "https://boiling-lake-99870-5122afeca48a.herokuapp.com",
+      link: "https://meowmories-1ccd7c141af6.herokuapp.com",
     },
     {
       name: "Just Another Text Editor",

@@ -293,6 +293,10 @@ button{
     height: 100vh;
 
   }
+  .projectLink i {
+    padding: 10px;
+    font-size: 1.5em; /* Adjust the size as needed */
+  }
 }
 
 @media (max-width: 768px){
