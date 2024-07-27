@@ -44,6 +44,10 @@ const Contact = () => {
   return (
     <div className="contactSection">
       <h2 className="contactHeading">Contact Me</h2>
+      <p className="disclaimer">
+        Contact form not yet implemented fully please use the contact methods
+        below until future update. This message will disappear when updated.
+      </p>
       <form onSubmit={handleSubmit} className="contactForm">
         <div>
           <label>Name: </label>

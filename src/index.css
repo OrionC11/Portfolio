@@ -7,11 +7,15 @@
   background-color: #242424;
 }
 
+* {
+  border-radius: 20px;
+}
 a {
   font-weight: 500;
   font-size: 24px;
   color: #646cff;
-  padding: 0px 20px;
+  padding: 0px 10px;
+  margin: 5px;
   text-decoration: inherit;
   border-right: 2px solid black;
   border-left: 2px solid black;
@@ -47,9 +51,9 @@ body{
 }
 nav{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  margin: 0;
+  margin: 5px 20px;
   padding: 10px;
 }
 main {
@@ -96,6 +100,7 @@ button{
   padding: 5px;
   margin: 5px;
   margin-top: 25px;
+  background-color: #6d6d6d21;
 }
 .header {
   margin: 0;
@@ -140,6 +145,9 @@ button{
   justify-content: center;
   align-items: center;
 }
+.disclaimer {
+  max-width: 85vw;
+}
 .portrait{
   max-width: 400px;
   max-height: auto;
@@ -168,7 +176,7 @@ button{
 .projectCard img {
   width: 100%;
   height: auto;
-  border-radius: 20px;''
+  border-radius: 20px;
 }
 .projectText{
   width: 100%; 
@@ -194,7 +202,7 @@ button{
 
 @media (prefers-color-scheme: light) {
   :root {
-    background-color: rgba(255, 255, 255, 0.60);
+    background-color: rgba(255, 255, 255, 0.6);
     color: black;
   }
   a{
@@ -213,14 +221,14 @@ button{
     color: white;
   }
   .aboutSection{
-    background-color: #242424;
+    background-color: #00170e;
   }
   .contactSection{
-    background-color: #242424;
+    background-color: #00170e;
   }
   .projectMain{
-    background-color: #242424;
-    width: 90vw;
+    background-color: #00170e;
+    max-width: 90vw;
   }
   .projectTitle{
     color: #242424
@@ -231,9 +239,16 @@ button{
 }
 
 @media (max-width: 1024px){
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
   main{
-    min-width: 100vw;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh; 
+    justify-content: space-between;
+    align-items: center;
   }
   h1{
     font-size: 30px;
@@ -263,16 +278,6 @@ button{
     max-width: 300px;
     max-height: auto;
   }
-  .aboutSection{
-    width: 95vw;
-    height: auto;
-
-  }
-  .projectCard{
-    width: 300px;
-    height: 300px;
-  
-  }
 
   .aboutSection {
     width: 95vw;
@@ -280,9 +285,28 @@ button{
     padding-top: 50px;
     padding-bottom: 50px;
   }
+  .projectCard{
+    width: 35vw;
+    height: auto;
+  
+  }
+  .contactSection {
+    width: 95vw;
+    height: 100vh;
 
+  }
 }
-
+@media (max-width:768px){
+  .projectContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .projectCard{
+    width: 90vw;
+    height: auto;
+  
+  }
+}
 
 @media (max-width: 578px){
   .projectMain{
